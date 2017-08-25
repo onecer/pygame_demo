@@ -102,7 +102,7 @@ class Boom(pygame.sprite.Sprite):
 
 pygame.init()
 screen = pygame.display.set_mode((800,600))
-pygame.display.set_caption('HitPlane')
+pygame.display.set_caption('Fantasy Shooter')
 ADDENEMY = pygame.USEREVENT + 1
 pygame.time.set_timer(ADDENEMY, 500)
 ADDBULLET = pygame.USEREVENT + 2
